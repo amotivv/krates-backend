@@ -7,6 +7,8 @@ export const mongoOptions: ConnectOptions = {
   autoIndex: true,
 }
 
+mongoose.set('strictQuery', true)
+
 export const connectDatabase = async (): Promise<void> => {
   await mongoose
     .connect(mongoConfig.mongoUrl, mongoOptions)
