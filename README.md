@@ -21,8 +21,6 @@
 ## Documentation
 **API SPEC**
 
-**Base URL:** [your-base-url]/api
-
 **General Information:**
 - All API Endpoints are protected with a rate limiter.
 - Status code 429 indicates rate limit exceeded.
