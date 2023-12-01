@@ -1,10 +1,8 @@
 <div align="center">
-<img src="./logo.svg" width="120"/>
-<br>
 <br>
 <h2>Krates-Backend (based on Krates)
 </h2>
-<p>Krates is a free HTTP based JSON storage service. It is meant to be easy to use and easy to self-host. It lets you store, read & modify JSON data over HTTP APIs for FREE.</p>
+<p>Krates-Backend is a free HTTP based JSON storage service. It is meant to be easy to use and easy to self-host. It lets you store, read & modify JSON data over HTTP APIs.</p>
 
 </div>
 
@@ -84,65 +82,7 @@
 
 Note: The mentioned `krateId`, `recordId`, `collectionId` & `'x-api-key'` are placeholders. Replace these with actual variables at the time of use. If authentication requirement is not mentioned, it is assumed to be not required.
 
-## Local Setup
-
-Clone the repository to a folder of your choice.
-
-```bash
-git clone https://github.com/sumitkolhe/krates
-```
-
-This would clone the whole repository onto your machine.
-
-## Run locally
-
-The repository contains frontend and backend code as well. You will need to run them separately.
-
-### Backend server
-
-> You need MongoDB to run this application. If you don't already have MongoDB, go to the [official documentation](https://docs.mongodb.com/manual/installation/) and follow the instructions there.
-
-Once you have MongoDB installed, run
-
-```bash
-mongo
-```
-
-Install the dependencies
-
-```bash #
-cd krates
-npm install
-```
-
-Rename **.example.env** file to **.env** and fill all the required variables.
-
-Start the backend server by running
-
-```bash
-npm run dev
-```
-
-> This will start the backend server on port `4000`
-
-### Frontend server
-
-Install the dependencies
-
-```bash #
-cd krates/dashboard
-npm install
-```
-
-Start the frontend server by running
-
-```bash
-npm run dev
-```
-
-> This will start the frontend server on port `3000`
-
-## ✍️ Authors
+## ✍️ Original Author of Krates
 
 - [**Sumit Kolhe**](https://github.com/sumitkolhe) - _Author_
 
